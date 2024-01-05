@@ -7,7 +7,7 @@
         <tr>
             <th>OID</th>
             <th>Nama Obat</th>
-            <th>Nama Penyakits</th>
+            <th>Nama Penyakit</th>
             <th></th>
         </tr>
     </thead>
