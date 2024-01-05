@@ -3,6 +3,14 @@
 @section('container')
 
 <table style="background-color: aliceblue">
+    <a href="/login">
+        <center>
+        <button class="button_tambah">
+            TAMBAH DATA
+        </button>
+    </center>
+    </a>
+    <br>
     <thead>
         <tr>
             <th>OID</th>
@@ -14,8 +22,8 @@
     <tbody>
         <tr>
             <td>1</td>
-            <td>Flu</td>
-            <td>demam, pilek, radang</td>
+            <td>Ultraflu</td>
+            <td> pilek</td>
             <td>
                 <a href="/login">
                     <button class="button_delete">
@@ -29,8 +37,8 @@
         </tr>
         <tr>
             <td>2</td>
-            <td>Batuk</td>
-            <td>sakit kepala, nyeri dada, nyeri tenggorokan</td>
+            <td>OBHcombi</td>
+            <td>batuk berdahak</td>
             <td>
                 <a href="/login">
                     <button class="button_delete">
@@ -44,8 +52,8 @@
         </tr>
         <tr>
             <td>2</td>
-            <td>Diare</td>
-            <td>nyeri bagian perut,mencret</td>
+            <td>Oralit</td>
+            <td>mencret</td>
             <td>
                 <a href="/login">
                     <button class="button_delete">

@@ -584,4 +584,18 @@ body {
   cursor: pointer;
 }
 
+.button_tambah{
+  padding: 5px 10px;
+  background-color:powderblue;
+  color:black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+
 

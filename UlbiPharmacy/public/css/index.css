@@ -23,6 +23,16 @@ nav .wrapper{
   align-items: center;
   justify-content: space-between;
 }
+
+#targetDiv {
+  height: 500px;
+  background-color: lightgray;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
 .wrapper .logo {
   width: 100px;
   height: 60px;
@@ -186,7 +196,6 @@ nav .wrapper{
     padding-left: 20px;
     width: 100%;
     max-height: 0px;
-    overflow: hidden;
     box-shadow: none;
     transition: all 0.3s ease;
   }
@@ -224,7 +233,6 @@ nav .wrapper{
     visibility: visible;
     padding: 0 20px;
     max-height: 0px;
-    overflow: hidden;
     transition: all 0.3s ease;
   }
   .mega-box .content{
@@ -280,7 +288,6 @@ nav input{
   border: none;
   border-radius: 5px;
   letter-spacing: 4px;
-  overflow: hidden;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -316,7 +323,7 @@ body, html {
   background-color: #ffffff;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   padding: 1.25rem;
-  margin-bottom: 20px; /* Menambahkan jarak antara kotak dan tombol */
+  margin-bottom: 20px; 
 }
 table {
   border-collapse: collapse;
@@ -357,7 +364,6 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 .glowing-btn {
