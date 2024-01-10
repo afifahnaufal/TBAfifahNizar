@@ -10,7 +10,7 @@
 <body>
     <nav>
         <div class="wrapper" id="wrapper">
-          <img src="/image/logo.png" alt="logo" class="logo">
+          <img src="/image/ulbii.png" awidth="130px" height="60px" class="ulbi">
           <ul class="nav-links">
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             <li><a href="/index">Home</a></li>
