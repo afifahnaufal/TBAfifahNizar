@@ -36,3 +36,9 @@ Route::get('/dokter', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('medicine/index',[medicineController::class, 'index'])->name('index.medicine');
+Route::get('medicine/create',[medicineController::class, 'create'])->name('create.medicine');
+//Route::get('medicine-add', [medicineController::class, 'create'])->name();
+Route::post('medicine/simpan',[medicineController::class, 'simpan'])->name('simpan.medicine');
+Route::get('medicine/edit',[medicineController::class, 'edit'])->name('edit.medicine');
+Route::post('medicine/delete', [medicineController::class, 'delete'])->name('delete.medicine');
