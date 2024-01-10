@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.button_login{
+  padding: 20px 30px;
+  background-color: #242526;
+  color: #03e9f4;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button_login:hover{
+    background: #03e9f4;
+    color: #242526;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.button_scroll{
+    padding: 20px 30px;
+    color: #242526;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .button_scroll:hover{
+      opacity: 100%;
+      background: rgba(248, 125, 58, 0.945);
+      color: #242526;
+      box-shadow: 0 0 5px rgba(248, 125, 58, 0.945)
+                  0 0 25px rgba(248, 125, 58, 0.945),
+                  0 0 50px rgba(248, 125, 58, 0.945),
+                  0 0 200px rgba(248, 125, 58, 0.945);
+       -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  }

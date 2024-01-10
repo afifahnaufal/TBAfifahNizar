@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard Table</title>
     <link rel="stylesheet" href="css/dashboardtable.css">
+    <link rel="stylesheet" href="css/buttonlogin.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
     <nav>
         <div class="wrapper" id="wrapper">
-          <img src="/image/ulbii.png" awidth="130px" height="60px" class="ulbi">
+          <img src="/image/ulbii.png" width="130px" height="60px" class="ulbi">
           <ul class="nav-links">
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             <li><a href="/index">Home</a></li>
