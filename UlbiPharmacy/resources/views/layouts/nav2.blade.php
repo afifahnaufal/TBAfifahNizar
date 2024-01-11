@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dashboard Table</title>
+    <title>ULBI PHARMACY</title>
     <link rel="stylesheet" href="css/dashboardtable.css">
     <link rel="stylesheet" href="css/buttonlogin.css">
     <link rel="stylesheet" href="css/table.css">
@@ -17,7 +17,7 @@
           <ul class="nav-links">
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             <li><a href="/index">Home</a></li>
-            <li><a href="#wrapper">About</a></li>
+            <li><a onclick="scrollToDiv()">About</a></li>
             <li>
               <a href="#" class="desktop-item">Services</a>
               <input type="checkbox" id="showDrop">
@@ -29,7 +29,7 @@
               </ul>
             </li>
             <li>
-              <a href="#" class="desktop-item">Contact us</a>
+              <a onclick="scrollToDiv2()" class="desktop-item">Contact us</a>
             </li>
             <li>
                 <a href="/login">

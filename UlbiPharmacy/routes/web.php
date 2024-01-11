@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\medicineController;
 
 use Illuminate\Support\Facades\Route;
 

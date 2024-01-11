@@ -2,9 +2,14 @@
 
 @section('container')
 
-      <h1 style="text-align: center;">Data Keluhan</h1>
+<a href="/login">
+    <center>
+    <button class="button_tambah">
+        TAMBAH DATA
+    </button>
+</center>
+</a>
 <br>
-      
     <table style="background-color: aliceblue">
         <thead>
             <tr>

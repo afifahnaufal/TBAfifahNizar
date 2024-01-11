@@ -1,11 +1,18 @@
-@extends('layouts.nav')
+@extends('layouts.nav2')
 
 @section('container')
 
 
-      <h1 style="text-align: center;">Data Keluhan</h1>
+      <h1 style="text-align: center;">Jadwal Dokter</h1>
       
     <table style="background-color: aliceblue">
+        <a href="/login">
+            <center>
+            <button class="button_tambah">
+                TAMBAH DATA
+            </button>
+        </center>
+        <br>
         <thead>
             <tr>
                 <th>ID</th>
