@@ -1,7 +1,11 @@
 @extends('layouts.nav')
     
 @section('container')
-      
+
+    <button class="carousel-button" id="prev-button" onclick="prevSlide()">❮</button>
+    <button class="carousel-button" id="next-button" onclick="nextSlide()">❯</button>
+  </div>
+  
     <div class="container">
         <div class="box bg-white shadow rounded" style="height: 345px; width: 70%;">
             <p class="text-6xl font-bold" style="opacity: 100%">ULBI PHARMACY</p>
@@ -41,7 +45,11 @@ function scrollToDiv2() {
         targetDiv.scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+showSlide(currentIndex);
+
 </script>
+
 
       
 @endsection('container')

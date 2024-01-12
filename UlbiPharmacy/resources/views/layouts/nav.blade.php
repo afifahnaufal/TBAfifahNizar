@@ -15,6 +15,7 @@
     <nav>
         <div class="wrapper" id="wrapper">
           <img src="/image/ulbii.png"  width="130px" height="60px" class="ulbi">
+
           <ul class="nav-links">
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             <li><a href="/index">Home</a></li>
@@ -57,9 +58,9 @@
           <div class="row" style="margin: 5px;">
             <div class="footer-col flex-center" >
               <p style="color :white; margin-right:50px">082318079929
-              (admin) </p>
+              (admin 1) </p>
               <p style="color :white; margin-left:50px">082116725971
-              (admin)</p>
+              (admin 2)</p>
             </div>
           </div>  
           <div class="row" style="margin: 4px;">
